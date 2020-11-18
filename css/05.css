@@ -1,0 +1,26 @@
+body{
+    height: 700px;
+        margin:0;
+       padding: 0;
+        background-image: url('img1/pic4.jpg');
+        background-size: cover;
+
+       
+       
+}
+.right
+{
+    top: 30%;
+    left: 76%;
+    padding: 15px 20px;
+    position: absolute;
+    transform:translate(-20%,-50%);
+    background-color: rgb(14, 11, 11);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 50px rgb(214, 9, 9) ;
+}
+.A input[type=button]{
+  
+    transform:translate(90%,10%);
+    background: rgb(219, 13, 13);
+}

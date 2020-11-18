@@ -1,0 +1,68 @@
+
+ body {
+     margin: 0px;
+     padding: 0px;
+     background-color: black;
+     color:white;
+     background: url('img1/pic11.jpg');
+     background-size: cover;
+     position: absolute;
+     height: 1000px;
+   
+     
+
+ }
+
+
+ header {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .navigition {
+     font-size: 15px;
+     display: flex;
+
+ }
+
+ li {
+     list-style: none;
+     padding: 20px 20px
+ }
+
+ section {
+     height: 344;
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+ }
+
+ section::before {
+     content: "welcome to food wold!";
+     margin: 40px;
+     font-size: 40px;
+
+
+ }
+
+ p {
+     font-size: 12px;
+ }
+ .navigition li {
+     
+        padding: 15px 15px;
+        text-decoration: underline;
+         text-decoration-color: gray;
+          font-style: oblique;
+             color: black;
+            
+             box-shadow:10px 10px 100px rgb(5, 5, 5) ;
+             padding: 40px 15px;
+             font-weight: bold;
+            cursor: pointer;
+
+     }
+ 

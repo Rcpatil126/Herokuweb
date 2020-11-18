@@ -1,0 +1,201 @@
+body{
+    
+    color: rgb(139, 127, 127);
+    margin: 0;
+    padding: 0;
+    background-image: url('css/img1/pic10.jpg');
+    background-size: cover;
+    height: 700px;
+    
+
+}
+.left
+{
+    
+    top: 20px;
+    left: 10px;
+    position: absolute;
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+} 
+.left img :hover{
+width: 23px;
+color: white;
+box-shadow: thistle;
+cursor: pointer;
+font-weight: bold;
+filter: invert(100%);
+
+
+}
+.mid
+{
+    top:5px;
+    font-size: 10px;
+    display: block;
+    width: 35%;
+    margin: 20px auto;
+   font-weight: bold;
+}
+.right
+{
+
+    top: 20px;
+    right: 0px;
+    position: absolute;
+    display: inline-block;
+   
+
+}
+.containr{
+
+    margin: 106px 80px;
+    padding: 45px 0px;
+    width: 15%;
+    border-radius: 2px;
+    left: 100px;
+
+}
+
+.btn{
+    margin: 0px 0px;
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+    border: 2px solid gray;
+    border-radius: 10px ;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: red;
+}
+.navbar{
+     display: inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 10px;
+    font: Arial;
+    top: 5px;
+}
+
+
+.navbar li a{
+    font-size: 10px;
+    font: Times;
+    color : white;
+    text-decoration: none;
+    padding: 40px 20;
+    margin: 5px;
+}
+.navbar li a i{
+    color: wheat;
+    font-size: 10px;
+    color: yellow;
+}
+
+.navbar li a :hover, .navbar li a:active{
+   text-decoration: underline;
+   text-decoration-color: turquoise;
+   font-style: oblique;
+   color: rgb(13, 226, 120);
+   font-weight: bold;
+}
+
+
+.wrapper{
+        
+        
+    width: 250px;
+    height: 230px;
+    color: rgb(22, 212, 16);
+    top: 70%;
+    left: 50%;
+    padding: 20px 25px;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 10px 10px 60px rgb(243, 240, 240) ;
+    cursor: pointer;
+}
+.wrapper input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.wrapper input[ type=type] .wrapper input[ type=password] {
+        
+    border:rgb(149, 231, 55);
+    border-bottom: none;
+    background: none;
+    outline: none;
+    height: 30px;
+    font-size: 25px;
+    opacity: 1;
+    color: rgb(195, 236, 9);
+    cursor: pointer;
+
+    }
+    .wrapper input[ type=type] .wrapper input[ type=password] {
+        
+        border:rgb(141, 141, 141);
+        border-bottom: none;
+        background: none;
+        outline: none;
+        height: 30px;
+        font-size: 25px;
+        opacity: 1;
+        color: rgba(40, 206, 7, 0.712);
+        cursor: pointer;
+    
+        }
+    
+    .wrapper input[type=button] {
+     width: 85px;
+     height: 25px;
+     background: #f6648b;
+     font-size: 20px;
+     font-weight: italic;
+     transform:translate(75%,10%)
+     
+    
+    }
+    
+    .wrapper input[type=submit]  :active{
+        cursor: pointer;
+
+    }
+    .wrapper a{
+        font-size: 15px;
+        text-decoration: none;
+        color: rgb(235, 231, 231);
+        cursor: pointer;
+        top: 200%;
+        left: 299px;
+
+        }
+        .wrapper a:hover{
+            color: rgb(6, 172, 42);
+            opacity: 1;
+            cursor: pointer;
+
+        }
+       
+        
+        h1{
+            margin: 2px;
+            padding: 2px;
+            font-weight: bold;
+            font-size: 22px;
+            color: rgb(230, 236, 230);
+            text-align: center;
+            margin-bottom: 5%;
+            font-family: courgette;
+            height: 20px;
+        }
+        .header .left li a i{
+            color: yellow;
+            font-size: 50px;
+        }
