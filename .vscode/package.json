@@ -1,0 +1,9 @@
+
+
+{
+    "scripts": {
+    "test": "echo \"error: no test specified\" && exit 1",
+    "start" : "node src/app.js" 
+}
+
+}
